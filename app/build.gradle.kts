@@ -3,13 +3,18 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ass1"
+    namespace = "com.example.soadesam_2320223491"
+
+    buildFeatures {
+        viewBinding=true
+    }
+
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.ass1"
+        applicationId = "com.example.soadesam_2320223491"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -17,10 +22,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-    buildFeatures {
-        viewBinding =true
-    }
-
 
     buildTypes {
         release {
